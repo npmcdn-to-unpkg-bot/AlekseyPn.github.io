@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/main.css" type='text/css'>
+  <title>Фотограф Анна Охапкина</title>
+</head>
+<body>
+	<header>
+   <div class="center-block">
+     <a href="index.html"><img src="images/logo-new1.png" alt="Logo" class="logo"></a>
+     <nav>
+       <ul class="main-menu">
+         <li><a href="index.html">Главная</a></li>
+         <li><a href="portfolio.html">Портфолио</a></li>
+         <li class="info-menu"><a href="#">Информация</a>
+           <ul class="sub-menu-price">
+             <li><a href="price.html">Стоимость съемок</a></li>
+             <li><a href="calendar.html">Календарь</a></li>
+             <li><a href="contacts.html">Контакты</a></li>
+           </ul>
+         </li>
+         <li><a href="blog.html">Блог</a></li>
+         <li><a href="about-us.html">Обо мне</a></li>
+       </ul>
+     </nav>
+   </div>
+ </header>
+<!--Блок с контактами -->
+	<section class="center-block">
+		<div class="contact-block">
+			<h3>Связаться со мной можно:</h3>
+			<p class="tel-wh-up">Тел. WhatsApp: +7(950)649-46-71<span class="icon"></span></p>
+			<p class="vk-id">Вконтакте: <a class="vk" href="https://vk.com/id234412589">https://vk.com/id234412589</a><span class="icon vk-icon"></span></p>
+			<p class="email">Почта: annaohapkina@mail.ru<span class="icon email-icon"></span></p>
+		</div>
+		<div class="container-form">
+		<form class="contact_form" action="contact-form.php" method="post">
+			<div class="contact-block-form clearfix">
+				<div class="column">
+					<div class="column-left clearfix">
+						<input class="f-text" type="text" name="f_name" placeholder="Ваше имя">
+						<input class="f-email" type="email" name="f_email" placeholder="Ваш email" required>
+
+						<input class="f-tel" type="tel" name="f_tel" placeholder="Введите ваш номер телефона" required>
+
+					</div>
+					<div class="column-right clearfix">
+						<textarea name="text_form" id="" cols="40" rows="7" placeholder="Сообщение">
+						</textarea>
+					</div>
+				</div>
+				<input name="not_spam" type="text" style="display:none" value="" />
+				<div class="submit-button">
+					<button class="submit" type="submit">Отправить сообщение</button>
+				</div>
+			</div>
+		</form>
+		</div>
+	</section>
+ <footer>
+   <div class="social center-block">
+     <a class="vk" href="https://vk.com/annaohapkina"><img src="images/vk.png" alt="" width="35" height="35"></a>
+     <a href="https://www.instagram.com/procul_negotiis/"><img src="images/Instagram.png" alt="" width="35" height="35"></a>
+     <p>Разработал:2016&copy; Алексей Пересмехин</p>
+   </div>
+
+ </footer>
+
+</body>
+</html>
