@@ -26,10 +26,10 @@ if (empty($bezspama)) /* Оценка поля bezspama - должно быть 
 
 $from  = "From: $name <$email> \r\n Reply-To: $email \r\n";
 if (mail($address, $sub, $mes, $from)) {
-	header('Refresh: 3; URL=http://annaohapkina.rus/');
+	header('Refresh: 3; URL=https://alekseypn.github.io');
 	echo 'Письмо отправлено, через 3 секунды вы вернетесь на главную страницу';}
 else {
-	header('Refresh: 3; URL=http://annaohapkina.rus/');
+	header('Refresh: 3; URL=https://alekseypn.github.io');
 	echo 'Письмо не отправлено, через 3 секунд вы вернетесь на главную страницу';}
 }
 exit; /* Выход без сообщения, если поле bezspama заполнено спам ботами */
