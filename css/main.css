@@ -449,7 +449,7 @@ textarea {
 }
 
 .center-block {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -480,7 +480,8 @@ body {
 
 /*Header*/
 .logo {
-  width: 100%;
+  display: block;
+  width: 90%;
   margin: 30px auto;
   text-align: center;
 }
@@ -576,6 +577,7 @@ width: 90%;
   margin-top: 30px;
   background: #F9f9f9;
   padding: 20px 0;
+  height: 3000px;
 }
 
 .sizer1{
