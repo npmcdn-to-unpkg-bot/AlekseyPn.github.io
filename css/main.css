@@ -497,9 +497,8 @@ body {
   position: relative;
   display: inline-block;
   margin-left:5px;
-  padding: 20px 45px;
-  background: url(../images/Cloud-2.jpg)no-repeat 50% 50%;
-  background-size: 140px;
+  
+  
 
 }
 
@@ -514,6 +513,9 @@ body {
   color: #4a3962;
   text-decoration: none;
   box-sizing: border-box;
+  background: url(../images/Cloud-2.jpg)no-repeat 50% 50%;
+  background-size: 140px;
+  padding: 20px 45px;
 
 
 }
